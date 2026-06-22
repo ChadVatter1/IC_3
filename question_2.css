@@ -1,7 +1,23 @@
 img {
+    z-index: 2;
+    box-shadow: 10px 10px 10px 10px;
     /* Your code goes here */
 }
+.container{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.items{
 
+    position: absolute;
+    left:470px;
+    top: 450px;
+    z-index: 1;
+}
 .words {
     font-family: impact;
     font-size: 60px;
@@ -9,14 +25,25 @@ img {
 
 .first {
     /* Your code goes here */
+    
+    position: absolute;
+    z-index: 1;
 }
 
 .heart {
     color: red;
     font-size: 80px;
     /* Your code goes here */
+
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    z-index: 1;
 }
 
 .last {
     /* Your code goes here */
-} 
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+}
